@@ -95,10 +95,20 @@
       .footer {
         margin-inline: 120px;
         margin-top: 25px;
+        line-height: 6px;
       }
       .footer p {
-        font-size: 10px;
+        font-size: 11px;
         color: gray;
+      }
+      #para7::before {
+        /* make a line on top of it */
+        content: "";
+        display: block;
+        border-top: 1px solid gray;
+        width: 44px;
+        margin-top: -10px;
+        margin-bottom: 10px;
       }
     </style>
   </head>
@@ -133,8 +143,8 @@
         </div>
         <hr class="custom-hr" />
         <div class="footer">
-          <p>KARRIERY 27</p>
-          <p>BIS RUE LIBAN TUNIS, Tunis, Tunisia</p>
+          <p id="para7">KARRIERY</p>
+          <p>27 BIS RUE LIBAN TUNIS, Tunis, Tunisia</p>
           <p>info@karriery.com</p>
           <p>www.karrieriy.com</p>
           <p>Tél : +216 58 065 605</p>
