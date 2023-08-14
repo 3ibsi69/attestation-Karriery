@@ -59,6 +59,10 @@
         line-height: 1.5;
         margin-inline: 70px;
       }
+      .fch {
+        display: flex;
+        justify-content: space-between;
+      }
       #para4 {
         text-align: justify;
         font-size: 15px;
@@ -71,10 +75,21 @@
         color: black;
         font-style: italic;
       }
+
       #para5 {
         text-align: justify;
         font-size: 15px;
+        line-height: 1.5;
+        margin-inline: 70px;
+        margin-top: 50px;
+      }
+      #para6 {
+        text-align: justify;
+        font-size: 15px;
         line-height: 1px;
+        margin-inline: 70px;
+      }
+      .custom-hr {
         margin-inline: 70px;
       }
     </style>
@@ -102,9 +117,13 @@
             Cette attestation est délivrée à l’intéressé pour servir et valoir
             ce que de droit.
           </p>
-          <p id="para4">FAIT À TUNIS LE <span> 05/07/2023</span></p>
-          <p id="para5">Halim Boussada</p>
+          <div class="fch">
+            <p id="para4">FAIT À TUNIS LE <span> 05/07/2023</span></p>
+            <p id="para5">Signature et cachet</p>
+          </div>
+          <p id="para6">Halim Boussada</p>
         </div>
+        <hr class="custom-hr" />
       </div>
     </div>
   </body>
